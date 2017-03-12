@@ -6,7 +6,7 @@
 
 .centered-image {
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     /*bring your own prefixes */
     transform: translate(-50%, -50%);
@@ -18,6 +18,34 @@
     text-overflow: inherit;
     white-space: nowrap;
     color: #6b7a89;
+}
+
+#company-text {
+    font-family: 'Lato', serif;
+    font-style:italic;
+    font-weight:300;
+    font-size: 16px;
+    color: SlateGrey;
+    /*text-shadow: 1px 1px 1px LightGrey;*/
+}
+
+.company {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translate(-50%, -50%);
+}
+
+.company a:link {
+    position: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.company img {
+    position: inherit;
+    width: 150px;
+    transform: translate(-50%, -50%);
 }
 
 .button {
