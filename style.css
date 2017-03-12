@@ -4,20 +4,27 @@
     color: SlateGrey;
 }
 
-.centered-image {
-    position: fixed;
+.centered {
+    position: absolute;
     top: 45%;
     left: 50%;
     /*bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
+.centered img {
+}
+
 .centered-text {
-    position: relative;
-    margin-right: -200px;
+    position: inherit;
+    /*margin-right: -200px;*/
     text-overflow: inherit;
     white-space: nowrap;
+    font-family: 'Lato', serif;
+    font-weight:300;
+    font-size: 24px;
     color: #6b7a89;
+    text-shadow: 1px 1px 1px #b2b2b2;
 }
 
 #company-text {
