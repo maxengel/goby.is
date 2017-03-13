@@ -1,23 +1,15 @@
-.centered-title {
-    text-align: center;
-    padding-top: 10px;
-    color: SlateGrey;
-}
-
 .centered {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
-    /*bring your own prefixes */
     transform: translate(-50%, -50%);
 }
 
-.centered img {
-}
+/*.centered img {*/
+/*}*/
 
 .centered-text {
     position: inherit;
-    /*margin-right: -200px;*/
     text-overflow: inherit;
     white-space: nowrap;
     font-family: 'Lato', serif;
@@ -56,28 +48,23 @@
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Lato', serif;
+    color: #1f628d;
     font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.button-contact {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-}
-
-.button-contact:hover {
-    background-color: #008CBA;
+.button:hover {
+    background: #1f628d;
+    text-decoration: none;
     color: white;
 }
 
