@@ -52,18 +52,19 @@
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: 'Lato', serif;
-    color: #1f628d;
+    color: #386FAF;
     font-size: 16px;
     padding: 10px 20px 10px 20px;
-    border: solid #1f628d 2px;
+    border: solid #386FAF 2px;
     text-decoration: none;
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    text-shadow: none;
 }
 
 .button:hover {
-    background: #1f628d;
+    background: #386FAF;
     text-decoration: none;
     color: white;
 }
